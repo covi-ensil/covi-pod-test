@@ -1,0 +1,6 @@
+framework module Pods_covi_pod_test_Example {
+  umbrella header "Pods-covi-pod-test_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

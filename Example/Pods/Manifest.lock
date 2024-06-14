@@ -1,0 +1,16 @@
+PODS:
+  - covi-pod-test (0.1.0)
+
+DEPENDENCIES:
+  - covi-pod-test (from `../`)
+
+EXTERNAL SOURCES:
+  covi-pod-test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  covi-pod-test: d43ad67f108bef6996be1e915770e446f7551d60
+
+PODFILE CHECKSUM: ea879dff77dfafd3a8b10417644c386f65e9925d
+
+COCOAPODS: 1.15.2

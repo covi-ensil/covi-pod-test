@@ -1,6 +1,5 @@
 # covi-pod-test
 
-[![CI Status](https://img.shields.io/travis/covi-ensil/covi-pod-test.svg?style=flat)](https://travis-ci.org/covi-ensil/covi-pod-test)
 [![Version](https://img.shields.io/cocoapods/v/covi-pod-test.svg?style=flat)](https://cocoapods.org/pods/covi-pod-test)
 [![License](https://img.shields.io/cocoapods/l/covi-pod-test.svg?style=flat)](https://cocoapods.org/pods/covi-pod-test)
 [![Platform](https://img.shields.io/cocoapods/p/covi-pod-test.svg?style=flat)](https://cocoapods.org/pods/covi-pod-test)

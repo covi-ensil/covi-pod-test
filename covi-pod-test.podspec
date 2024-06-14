@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'covi-pod-test/Classes/**/*'
+  s.source_files = 'covi-pod-test/Classes/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'covi-pod-test' => ['covi-pod-test/Assets/*.png']

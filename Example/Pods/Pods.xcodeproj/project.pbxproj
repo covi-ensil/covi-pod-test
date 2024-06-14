@@ -13,7 +13,7 @@
 		8761E1ADC99D4DB5CFEE380621032C14 /* covi-pod-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF82A1AC7F8998E310973E7CEFF3AC1 /* covi-pod-test-dummy.m */; };
 		BD6A11D226354C312D11E24978A2FDD0 /* covi-pod-test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1404BB1909B9CE406ED4407B51F147 /* covi-pod-test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA4A8DF344231486977E4CA6F13C9E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FDDA452E2C1BFC6800D12B0B /* testAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA452D2C1BFC6800D12B0B /* testAlert.swift */; };
+		FDDA45302C1C009000D12B0B /* testAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA452F2C1C009000D12B0B /* testAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		F7EB0984FADBD03535556E6D08BC2F5F /* Pods-covi-pod-test_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covi-pod-test_Tests-Info.plist"; sourceTree = "<group>"; };
 		FB5F98A2FC85AD868319B0123A5B59FD /* Pods-covi-pod-test_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-covi-pod-test_Tests.modulemap"; sourceTree = "<group>"; };
 		FBAF197431194E051998A85C9E65204F /* Pods-covi-pod-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covi-pod-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FDDA452D2C1BFC6800D12B0B /* testAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAlert.swift; sourceTree = "<group>"; };
+		FDDA452F2C1C009000D12B0B /* testAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testAlert.swift; path = "covi-pod-test/Classes/testAlert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		452815CA8552623FF8C3E662794379BE /* covi-pod-test */ = {
 			isa = PBXGroup;
 			children = (
-				FDDA452D2C1BFC6800D12B0B /* testAlert.swift */,
+				FDDA452F2C1C009000D12B0B /* testAlert.swift */,
 				F13B602FA0FB48D1956930DF35EBB701 /* Pod */,
 				8E8C7021BC9B3E1D4F2B2726FD3CC535 /* Support Files */,
 			);
@@ -326,7 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8761E1ADC99D4DB5CFEE380621032C14 /* covi-pod-test-dummy.m in Sources */,
-				FDDA452E2C1BFC6800D12B0B /* testAlert.swift in Sources */,
+				FDDA45302C1C009000D12B0B /* testAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

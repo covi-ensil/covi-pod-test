@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  covi-pod-test
+//  covi-ios-sdk
 //
-//  Created by covi-ensil on 06/14/2024.
+//  Created by covi-ensil on 06/12/2024.
 //  Copyright (c) 2024 covi-ensil. All rights reserved.
 //
 
@@ -43,4 +43,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
 

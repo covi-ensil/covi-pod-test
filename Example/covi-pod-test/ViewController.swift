@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  covi-pod-test
+//  covi-ios-sdk
 //
-//  Created by covi-ensil on 06/14/2024.
+//  Created by covi-ensil on 06/12/2024.
 //  Copyright (c) 2024 covi-ensil. All rights reserved.
 //
 
@@ -16,9 +16,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAlert(_ sender: UIButton) {
-        EnsilAlert(title: "Is covi-pod-test library working?", confirm: "Yes Yes!") {
-            print("covi-pod-test library is working")
+        EnsilAlert(title: "Is covi-pod-test library working?", confirm: "YES!!") {
+            print("covi-pod-test library is working!")
         }.show(in: view)
     }
 }
+
 

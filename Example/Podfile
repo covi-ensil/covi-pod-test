@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'covi-pod-test_Example' do
+  pod 'covi-pod-test', :path => '../'
+
+  target 'covi-pod-test_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

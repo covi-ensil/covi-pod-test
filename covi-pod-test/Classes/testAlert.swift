@@ -99,3 +99,7 @@ open class EnsilAlert: UIView {
     }
 }
 
+public func EnsilTest(){
+    print("This covi-pod-test version is 0.1.4")
+}
+

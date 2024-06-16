@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="covi_ios_sdk_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="covi_pod_test_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -27,10 +27,18 @@
                                     <action selector="showAlert:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WVN-LG-ryF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="covi-pod-test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzf-wY-0hl">
+                                <rect key="frame" x="135" y="626" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tbE-l4-u1p" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="89b-os-BLk"/>
+                            <constraint firstItem="Bzf-wY-0hl" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="9Sy-Ub-gtP"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Bzf-wY-0hl" secondAttribute="bottom" constant="20" id="S4R-wL-jc4"/>
                             <constraint firstItem="tbE-l4-u1p" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ufD-ty-XX2"/>
                         </constraints>
                     </view>
@@ -41,4 +49,3 @@
         </scene>
     </scenes>
 </document>
-

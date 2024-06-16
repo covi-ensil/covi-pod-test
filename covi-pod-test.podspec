@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'covi-pod-test'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.swift_versions = '5.0'
   s.summary          = 'pod test for covi-ios-sdk.'
 
@@ -28,6 +28,8 @@ TODO: Add long description of the pod here.
   s.author           = { 'covi-ensil' => 'ensil@covi.co.kr' }
   s.source           = { :git => 'https://github.com/covi-ensil/covi-pod-test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.readme = "https://github.com/covi-ensil/covi-pod-test/blob/master/README.md"
+
 
   s.ios.deployment_target = '12.0'
 

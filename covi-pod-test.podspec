@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'covi-pod-test'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.swift_versions = '5.0'
   s.summary          = 'pod test for covi-ios-sdk.'
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/covi-ensil/covi-pod-test'
+  s.homepage         = 'https://www.covi.co.kr/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'covi-ensil' => 'ensil@covi.co.kr' }

@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/covi-ensil/covi-pod-test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.readme = "https://github.com/covi-ensil/covi-pod-test/blob/master/README.md"
-  s.vendored_frameworks = 'AnimalFramework.xcframework/'
+  s.vendored_frameworks = 'AnimalFramework.xcframework'
 
   s.ios.deployment_target = '12.0'
 

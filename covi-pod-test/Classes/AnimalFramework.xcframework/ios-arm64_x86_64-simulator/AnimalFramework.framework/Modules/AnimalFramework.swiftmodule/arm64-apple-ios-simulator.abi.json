@@ -1,0 +1,465 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnimalFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Animal",
+        "printedName": "Animal",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rion",
+            "printedName": "rion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AnimalFramework.Animal.Type) -> AnimalFramework.Animal",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Animal",
+                    "printedName": "AnimalFramework.Animal",
+                    "usr": "s:15AnimalFramework0A0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AnimalFramework.Animal.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animal",
+                        "printedName": "AnimalFramework.Animal",
+                        "usr": "s:15AnimalFramework0A0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AnimalFramework0A0O4rionyA2CmF",
+            "mangledName": "$s15AnimalFramework0A0O4rionyA2CmF",
+            "moduleName": "AnimalFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "dog",
+            "printedName": "dog",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AnimalFramework.Animal.Type) -> AnimalFramework.Animal",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Animal",
+                    "printedName": "AnimalFramework.Animal",
+                    "usr": "s:15AnimalFramework0A0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AnimalFramework.Animal.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animal",
+                        "printedName": "AnimalFramework.Animal",
+                        "usr": "s:15AnimalFramework0A0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AnimalFramework0A0O3dogyA2CmF",
+            "mangledName": "$s15AnimalFramework0A0O3dogyA2CmF",
+            "moduleName": "AnimalFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "cat",
+            "printedName": "cat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AnimalFramework.Animal.Type) -> AnimalFramework.Animal",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Animal",
+                    "printedName": "AnimalFramework.Animal",
+                    "usr": "s:15AnimalFramework0A0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AnimalFramework.Animal.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animal",
+                        "printedName": "AnimalFramework.Animal",
+                        "usr": "s:15AnimalFramework0A0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AnimalFramework0A0O3catyA2CmF",
+            "mangledName": "$s15AnimalFramework0A0O3catyA2CmF",
+            "moduleName": "AnimalFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnimalFramework.Animal?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Animal",
+                    "printedName": "AnimalFramework.Animal",
+                    "usr": "s:15AnimalFramework0A0O"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AnimalFramework0A0O8rawValueACSgSS_tcfc",
+            "mangledName": "$s15AnimalFramework0A0O8rawValueACSgSS_tcfc",
+            "moduleName": "AnimalFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AnimalFramework0A0O8rawValueSSvp",
+            "mangledName": "$s15AnimalFramework0A0O8rawValueSSvp",
+            "moduleName": "AnimalFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AnimalFramework0A0O8rawValueSSvg",
+                "mangledName": "$s15AnimalFramework0A0O8rawValueSSvg",
+                "moduleName": "AnimalFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15AnimalFramework0A0O",
+        "mangledName": "$s15AnimalFramework0A0O",
+        "moduleName": "AnimalFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnimalFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Animals",
+        "printedName": "Animals",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AnimalFramework7AnimalsC5countSivp",
+            "mangledName": "$s15AnimalFramework7AnimalsC5countSivp",
+            "moduleName": "AnimalFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AnimalFramework7AnimalsC5countSivg",
+                "mangledName": "$s15AnimalFramework7AnimalsC5countSivg",
+                "moduleName": "AnimalFramework",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "append",
+            "printedName": "append(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Animal",
+                "printedName": "AnimalFramework.Animal",
+                "usr": "s:15AnimalFramework0A0O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AnimalFramework7AnimalsC6appendyyAA0A0OF",
+            "mangledName": "$s15AnimalFramework7AnimalsC6appendyyAA0A0OF",
+            "moduleName": "AnimalFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bark",
+            "printedName": "bark(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Animal",
+                "printedName": "AnimalFramework.Animal",
+                "usr": "s:15AnimalFramework0A0O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AnimalFramework7AnimalsC4bark3foryAA0A0O_tF",
+            "mangledName": "$s15AnimalFramework7AnimalsC4bark3foryAA0A0O_tF",
+            "moduleName": "AnimalFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Animals",
+                "printedName": "AnimalFramework.Animals",
+                "usr": "c:@M@AnimalFramework@objc(cs)Animals"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AnimalFramework@objc(cs)Animals(im)init",
+            "mangledName": "$s15AnimalFramework7AnimalsCACycfc",
+            "moduleName": "AnimalFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AnimalFramework@objc(cs)Animals",
+        "mangledName": "$s15AnimalFramework7AnimalsC",
+        "moduleName": "AnimalFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/AnimalFramework\/AnimalFramework\/Animals.swift",
+      "kind": "Array",
+      "offset": 181,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

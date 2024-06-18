@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -75,7 +75,7 @@
 		FB5F98A2FC85AD868319B0123A5B59FD /* Pods-covi-pod-test_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-covi-pod-test_Tests.modulemap"; sourceTree = "<group>"; };
 		FBAF197431194E051998A85C9E65204F /* Pods-covi-pod-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covi-pod-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FDDA452F2C1C009000D12B0B /* testAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testAlert.swift; path = "covi-pod-test/Classes/testAlert.swift"; sourceTree = "<group>"; };
-		FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnimalFramework.xcframework; path = "../../covi-pod-test/Classes/AnimalFramework.xcframework"; sourceTree = "<group>"; };
+		FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:53J7F3TX7Z:JUNGYOON LEE"; lastKnownFileType = wrapper.xcframework; name = AnimalFramework.xcframework; path = "../../covi-pod-test/Classes/AnimalFramework.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

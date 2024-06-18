@@ -8,11 +8,20 @@
 
 import UIKit
 import covi_pod_test
+import AnimalFramework
 
 class ViewController: UIViewController {
+    
+    private let animal = Animals()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        animal.append(.cat)
+        
+        animal.bark(for: .cat)
+        animal.bark(for: .dog)
+        animal.bark(for: .rion)
     }
 
     @IBAction func showAlert(_ sender: UIButton) {

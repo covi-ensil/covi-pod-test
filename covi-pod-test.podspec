@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'covi-pod-test'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.swift_versions = '5.0'
   s.summary          = 'pod test for covi-ios-sdk.'
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  SDK for inserting CoviPlayer with VAST specifications and Viewability into your project
                        DESC
 
   s.homepage         = 'https://www.covi.co.kr/'
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/covi-ensil/covi-pod-test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.readme = "https://github.com/covi-ensil/covi-pod-test/blob/master/README.md"
-
+  s.vendored_frameworks = 'AnimalFramework.xcframework'
 
   s.ios.deployment_target = '12.0'
 

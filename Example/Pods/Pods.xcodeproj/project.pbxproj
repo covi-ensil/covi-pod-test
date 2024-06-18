@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		BD6A11D226354C312D11E24978A2FDD0 /* covi-pod-test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1404BB1909B9CE406ED4407B51F147 /* covi-pod-test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA4A8DF344231486977E4CA6F13C9E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FDDA45302C1C009000D12B0B /* testAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA452F2C1C009000D12B0B /* testAlert.swift */; };
+		FDE4FE2C2C2118F7006C83F0 /* AnimalFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */; };
+		FDE4FE2D2C2118F7006C83F0 /* AnimalFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,20 @@
 			remoteInfo = "covi-pod-test";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDE4FE2A2C211700006C83F0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FDE4FE2D2C2118F7006C83F0 /* AnimalFramework.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		010D3108243DBB7C8F82AE13B32E8DD7 /* covi-pod-test.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "covi-pod-test.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -59,6 +75,7 @@
 		FB5F98A2FC85AD868319B0123A5B59FD /* Pods-covi-pod-test_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-covi-pod-test_Tests.modulemap"; sourceTree = "<group>"; };
 		FBAF197431194E051998A85C9E65204F /* Pods-covi-pod-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covi-pod-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FDDA452F2C1C009000D12B0B /* testAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testAlert.swift; path = "covi-pod-test/Classes/testAlert.swift"; sourceTree = "<group>"; };
+		FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnimalFramework.xcframework; path = "../../covi-pod-test/Classes/AnimalFramework.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE4FE2C2C2118F7006C83F0 /* AnimalFramework.xcframework in Frameworks */,
 				EA4A8DF344231486977E4CA6F13C9E88 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +197,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */,
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
@@ -252,6 +271,7 @@
 				E6D7FAC70AC23D5260A9FE188E315F3F /* Sources */,
 				15F3EBF60811D12AA132C21D186CD64A /* Frameworks */,
 				B55D3080087702DA37AF69C226F6C3D5 /* Resources */,
+				FDE4FE2A2C211700006C83F0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,7 +379,11 @@
 				INFOPLIST_FILE = "Target Support Files/covi-pod-test/covi-pod-test-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/covi-pod-test/covi-pod-test.modulemap";
 				PRODUCT_MODULE_NAME = covi_pod_test;
 				PRODUCT_NAME = covi_pod_test;
@@ -395,7 +419,11 @@
 				INFOPLIST_FILE = "Target Support Files/covi-pod-test/covi-pod-test-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/covi-pod-test/covi-pod-test.modulemap";
 				PRODUCT_MODULE_NAME = covi_pod_test;
 				PRODUCT_NAME = covi_pod_test;
@@ -417,7 +445,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6CBE3CEC44CC4A1AC6541FB7C025FB0 /* Pods-covi-pod-test_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -430,7 +457,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-covi-pod-test_Example/Pods-covi-pod-test_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-covi-pod-test_Example/Pods-covi-pod-test_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -506,7 +537,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -516,7 +548,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7E4E32413C3C77E138A2EECAFAC41D0 /* Pods-covi-pod-test_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -529,7 +560,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-covi-pod-test_Example/Pods-covi-pod-test_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-covi-pod-test_Example/Pods-covi-pod-test_Example.modulemap";
 				OTHER_LDFLAGS = "";

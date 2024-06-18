@@ -1,0 +1,6 @@
+framework module AnimalFramework {
+  umbrella header "AnimalFramework.h"
+  export *
+
+  module * { export * }
+}

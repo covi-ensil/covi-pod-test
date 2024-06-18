@@ -1,6 +1,0 @@
-framework module covisdk {
-  umbrella header "covisdk.h"
-  export *
-
-  module * { export * }
-}

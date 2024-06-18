@@ -35,6 +35,12 @@ Pod::Spec.new do |s|
 
   s.source_files = 'covi-pod-test/Classes/**/*.{swift}'
   
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
   # s.resource_bundles = {
   #   'covi-pod-test' => ['covi-pod-test/Assets/*.png']
   # }

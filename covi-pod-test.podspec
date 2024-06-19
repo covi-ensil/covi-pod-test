@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'covi-pod-test'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.swift_versions = '5.0'
   s.summary          = 'pod test for covi-ios-sdk.'
 
@@ -23,11 +23,9 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://www.covi.co.kr/'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'covi-ensil' => 'ensil@covi.co.kr' }
   s.source           = { :git => 'https://github.com/covi-ensil/covi-pod-test.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.readme = "https://github.com/covi-ensil/covi-pod-test/blob/master/README.md"
   s.vendored_frameworks = 'AnimalFramework.xcframework', 'covisdk.xcframework'
 
@@ -40,17 +38,13 @@ Pod::Spec.new do |s|
   }
   
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  
-  # s.resource_bundles = {
-  #   'covi-pod-test' => ['covi-pod-test/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.dependency 'SwiftyXMLParser', '~> 5.3.0'
-  s.dependency 'Alamofire', '~> 5.4'
+  s.dependency 'Alamofire', '5.4.0'
   s.dependency 'SDWebImage', '~> 5.0'
   s.dependency 'Player', '~> 0.13.2'
 end

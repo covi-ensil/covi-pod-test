@@ -4,3 +4,8 @@ framework module covisdk {
 
   module * { export * }
 }
+
+module covisdk.Swift {
+  header "covisdk-Swift.h"
+  requires objc
+}

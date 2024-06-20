@@ -12,21 +12,25 @@
 		<data>
 		P2mzDDu8xj4DKQnpX6tISv3s1KY=
 		</data>
+		<key>ios-arm64/covisdk.framework/Headers/covisdk-Swift.h</key>
+		<data>
+		jIY+hn1T/xww1UPq+Lwimd3qFW0=
+		</data>
 		<key>ios-arm64/covisdk.framework/Headers/covisdk.h</key>
 		<data>
-		NpURuEtP1131xYSJEEUa+p6lXEg=
+		tqKYXa1H3BW8nKxdvJQAyUlnOLY=
 		</data>
 		<key>ios-arm64/covisdk.framework/Info.plist</key>
 		<data>
-		uxlCEy4JpmZ8JJQJbOlY2rYusO8=
+		fZk6NxM6GynU4mIRcfQRmB440lE=
 		</data>
 		<key>ios-arm64/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		aSxNLeM4q3Z5tss7P5ud9hqAcmE=
+		5maUDNKgjN+XLlHEUpoY6ti95Dw=
 		</data>
 		<key>ios-arm64/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		LCZ+pTOmx5eWMlLkECPglOO+tYk=
+		JoKkx/b6mhQqVA9bvPkrsi0WQDM=
 		</data>
 		<key>ios-arm64/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,23 +38,23 @@
 		</data>
 		<key>ios-arm64/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		LCZ+pTOmx5eWMlLkECPglOO+tYk=
+		JoKkx/b6mhQqVA9bvPkrsi0WQDM=
 		</data>
 		<key>ios-arm64/covisdk.framework/Modules/module.modulemap</key>
 		<data>
-		UkOXtmRWHfHPaR7vj4XCJ/F9TZ4=
+		nk+JNHzUBF2t93HYwK0jxKZs7MQ=
 		</data>
 		<key>ios-arm64/covisdk.framework/NativeItem1.nib</key>
 		<data>
 		itMrpFebYNHJumwh2zebg0+gfA4=
 		</data>
-		<key>ios-arm64/covisdk.framework/_CodeSignature/CodeResources</key>
-		<data>
-		f4nuRui4J0vN1BsNII5CfiZCIJY=
-		</data>
 		<key>ios-arm64/covisdk.framework/covisdk</key>
 		<data>
-		SMHlNp6kurREtyz95aoNo6F10z4=
+		mAkmmjgXFIsUhgVKBkEHDDZ28Ok=
+		</data>
+		<key>ios-arm64/covisdk.framework/covisdk.podspec</key>
+		<data>
+		frM0WmCmEI401TlDagXjvc/dqaA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/AdVideoView.nib</key>
 		<data>
@@ -60,21 +64,25 @@
 		<data>
 		P2mzDDu8xj4DKQnpX6tISv3s1KY=
 		</data>
+		<key>ios-arm64_x86_64-simulator/covisdk.framework/Headers/covisdk-Swift.h</key>
+		<data>
+		voxh7KqbEdoEhiU6MugOXOoi0fI=
+		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Headers/covisdk.h</key>
 		<data>
-		NpURuEtP1131xYSJEEUa+p6lXEg=
+		tqKYXa1H3BW8nKxdvJQAyUlnOLY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Info.plist</key>
 		<data>
-		prV1Z942jOpUdnollhTTwBhONNQ=
+		0C32L/r41Bw9knaLupcxKDf8t/c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9yfgw+hgAuOZ4jOoIk2d34EY9hc=
+		zcXCTKkd6dPQzRbqtuM9Mtl9HTQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MFxMTMdtbvVPSYQiPs6bCjYuXGI=
+		bmLyks/7gYjkiZYLrBnI5P9DB4I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,15 +90,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MFxMTMdtbvVPSYQiPs6bCjYuXGI=
+		bmLyks/7gYjkiZYLrBnI5P9DB4I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9yfgw+hgAuOZ4jOoIk2d34EY9hc=
+		zcXCTKkd6dPQzRbqtuM9Mtl9HTQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TbddvaQ4IjDw8HXm0mED7sBaAfM=
+		vuJAWh2Fqi5iY0xKcJ4YqfCy+E8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -98,11 +106,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TbddvaQ4IjDw8HXm0mED7sBaAfM=
+		vuJAWh2Fqi5iY0xKcJ4YqfCy+E8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/module.modulemap</key>
 		<data>
-		UkOXtmRWHfHPaR7vj4XCJ/F9TZ4=
+		nk+JNHzUBF2t93HYwK0jxKZs7MQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/NativeItem1.nib</key>
 		<data>
@@ -110,11 +118,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/_CodeSignature/CodeResources</key>
 		<data>
-		eeePTWplygJdYVi2SyshWTAgTE8=
+		fvK+q/dRFjoX3AtdmqLGDT6E/Zo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/covisdk</key>
 		<data>
-		pgEIdIym3TCZpUahm/bIQ7cmH3E=
+		PSlRfLGMuH3N5vEhx/c4lM/KxJ4=
+		</data>
+		<key>ios-arm64_x86_64-simulator/covisdk.framework/covisdk.podspec</key>
+		<data>
+		frM0WmCmEI401TlDagXjvc/dqaA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -141,48 +153,59 @@
 			VjZNsWvKEKIKvEEeFahxj2xMIvI4LIWfYXMkUqskFcM=
 			</data>
 		</dict>
+		<key>ios-arm64/covisdk.framework/Headers/covisdk-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jIY+hn1T/xww1UPq+Lwimd3qFW0=
+			</data>
+			<key>hash2</key>
+			<data>
+			K8uePBrJhNXK+GkmCtcUKFAcS88xff6M7bQZeDXEm8Q=
+			</data>
+		</dict>
 		<key>ios-arm64/covisdk.framework/Headers/covisdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NpURuEtP1131xYSJEEUa+p6lXEg=
+			tqKYXa1H3BW8nKxdvJQAyUlnOLY=
 			</data>
 			<key>hash2</key>
 			<data>
-			1pkg4f4le8P05zjfihto1br1VT7BVq4MYYCM/lBfzY4=
+			0pAVe2rIhSyW6mMtWKmvQDxjUfhTNq0n+iCcnr2UE4w=
 			</data>
 		</dict>
 		<key>ios-arm64/covisdk.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uxlCEy4JpmZ8JJQJbOlY2rYusO8=
+			fZk6NxM6GynU4mIRcfQRmB440lE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6rfIjfRabDvz6+ctSTuP1SaauI0H4RoBvOmEhZk5L9o=
+			bS10yCdzm9Ct7HT/5CL+WuYiyIN9q3nRhTy/ysVfov8=
 			</data>
 		</dict>
 		<key>ios-arm64/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aSxNLeM4q3Z5tss7P5ud9hqAcmE=
+			5maUDNKgjN+XLlHEUpoY6ti95Dw=
 			</data>
 			<key>hash2</key>
 			<data>
-			3TU+bfT0mLbt4MdI0T5Xxg6yECf9IXSl+IvN5Xl9MTE=
+			g/TY5zS8FDoMSSegqZLGKiAg4qbdQccP9NcIwka8FcY=
 			</data>
 		</dict>
 		<key>ios-arm64/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LCZ+pTOmx5eWMlLkECPglOO+tYk=
+			JoKkx/b6mhQqVA9bvPkrsi0WQDM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vv12jdP084AipLy4Vz7YjhPVXnVlgCkWqDGI5e+9kw8=
+			afCf2l4/XDM4J6qtGZs0drNPBrQMGwEXlz39p8nDBm0=
 			</data>
 		</dict>
 		<key>ios-arm64/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -200,22 +223,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LCZ+pTOmx5eWMlLkECPglOO+tYk=
+			JoKkx/b6mhQqVA9bvPkrsi0WQDM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vv12jdP084AipLy4Vz7YjhPVXnVlgCkWqDGI5e+9kw8=
+			afCf2l4/XDM4J6qtGZs0drNPBrQMGwEXlz39p8nDBm0=
 			</data>
 		</dict>
 		<key>ios-arm64/covisdk.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UkOXtmRWHfHPaR7vj4XCJ/F9TZ4=
+			nk+JNHzUBF2t93HYwK0jxKZs7MQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			98n3wNSNJ6iIfPsOMud+obIILVvrt5tkvah4WC8HFDU=
+			/iLGHDVjlhJJq3ZrXVO4cZ2/bdp2Z3XSAZEiZl0WKcA=
 			</data>
 		</dict>
 		<key>ios-arm64/covisdk.framework/NativeItem1.nib</key>
@@ -229,26 +252,26 @@
 			US9Ms5DzyGAd9yXvRlGZe/kHv63KfaraGXIogbQAfAA=
 			</data>
 		</dict>
-		<key>ios-arm64/covisdk.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			f4nuRui4J0vN1BsNII5CfiZCIJY=
-			</data>
-			<key>hash2</key>
-			<data>
-			YCcRqJh1JDFnL46lv3FDfcAYtQuod4XfwdXqyQjz5bw=
-			</data>
-		</dict>
 		<key>ios-arm64/covisdk.framework/covisdk</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SMHlNp6kurREtyz95aoNo6F10z4=
+			mAkmmjgXFIsUhgVKBkEHDDZ28Ok=
 			</data>
 			<key>hash2</key>
 			<data>
-			fkfPmtpuvwlf/j0fJM97Jxijz4RTLZX9v0hOtzhxqBY=
+			749ydv8yBLtyIP5G/sexwEIit6u+LYc6YoXUcMLEL7M=
+			</data>
+		</dict>
+		<key>ios-arm64/covisdk.framework/covisdk.podspec</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			frM0WmCmEI401TlDagXjvc/dqaA=
+			</data>
+			<key>hash2</key>
+			<data>
+			MUngHfHN52HBlovCumRG9hO7lu1H0f/MdmoaGOeBUdM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/AdVideoView.nib</key>
@@ -273,48 +296,59 @@
 			VjZNsWvKEKIKvEEeFahxj2xMIvI4LIWfYXMkUqskFcM=
 			</data>
 		</dict>
+		<key>ios-arm64_x86_64-simulator/covisdk.framework/Headers/covisdk-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			voxh7KqbEdoEhiU6MugOXOoi0fI=
+			</data>
+			<key>hash2</key>
+			<data>
+			YUzRHRJ6NNSHg8r2a/Fem84omcaNdyQHpVhAOYthfA8=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Headers/covisdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NpURuEtP1131xYSJEEUa+p6lXEg=
+			tqKYXa1H3BW8nKxdvJQAyUlnOLY=
 			</data>
 			<key>hash2</key>
 			<data>
-			1pkg4f4le8P05zjfihto1br1VT7BVq4MYYCM/lBfzY4=
+			0pAVe2rIhSyW6mMtWKmvQDxjUfhTNq0n+iCcnr2UE4w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			prV1Z942jOpUdnollhTTwBhONNQ=
+			0C32L/r41Bw9knaLupcxKDf8t/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			9fP8GfaBhRL3DHkoxhhGu2u2yyIhxXdl7LqRxpfAUy0=
+			f0xZV6qw27vle6dfNKQc52Y3764/AHzOmast9enMByo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9yfgw+hgAuOZ4jOoIk2d34EY9hc=
+			zcXCTKkd6dPQzRbqtuM9Mtl9HTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qAkXhd5CNsPpT3XBzW2x5XN4bO5nQTlUHKbd1CTMeew=
+			F1HMCrq65MVmd9UWRvTuh4kzwSmYaAtSQg/xaqu57LQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MFxMTMdtbvVPSYQiPs6bCjYuXGI=
+			bmLyks/7gYjkiZYLrBnI5P9DB4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			CCGv88tqgt56FVxjUS+DlQd2v8ruRvmb68MaQzaX8AE=
+			OJHyg7ORvYF+Q5IfN3DCcLvG+wVIZvDDv4vvDnL586E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -332,33 +366,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MFxMTMdtbvVPSYQiPs6bCjYuXGI=
+			bmLyks/7gYjkiZYLrBnI5P9DB4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			CCGv88tqgt56FVxjUS+DlQd2v8ruRvmb68MaQzaX8AE=
+			OJHyg7ORvYF+Q5IfN3DCcLvG+wVIZvDDv4vvDnL586E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9yfgw+hgAuOZ4jOoIk2d34EY9hc=
+			zcXCTKkd6dPQzRbqtuM9Mtl9HTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qAkXhd5CNsPpT3XBzW2x5XN4bO5nQTlUHKbd1CTMeew=
+			F1HMCrq65MVmd9UWRvTuh4kzwSmYaAtSQg/xaqu57LQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TbddvaQ4IjDw8HXm0mED7sBaAfM=
+			vuJAWh2Fqi5iY0xKcJ4YqfCy+E8=
 			</data>
 			<key>hash2</key>
 			<data>
-			cGRv+/pk1iKWRBXAynNn1qLfn7yV5ayiMgzn3GErBo8=
+			kzfhzeTsXieZnvur+3wA7Bc6QqKGLRKrTmfqt0TwZDY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -376,22 +410,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TbddvaQ4IjDw8HXm0mED7sBaAfM=
+			vuJAWh2Fqi5iY0xKcJ4YqfCy+E8=
 			</data>
 			<key>hash2</key>
 			<data>
-			cGRv+/pk1iKWRBXAynNn1qLfn7yV5ayiMgzn3GErBo8=
+			kzfhzeTsXieZnvur+3wA7Bc6QqKGLRKrTmfqt0TwZDY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UkOXtmRWHfHPaR7vj4XCJ/F9TZ4=
+			nk+JNHzUBF2t93HYwK0jxKZs7MQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			98n3wNSNJ6iIfPsOMud+obIILVvrt5tkvah4WC8HFDU=
+			/iLGHDVjlhJJq3ZrXVO4cZ2/bdp2Z3XSAZEiZl0WKcA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/NativeItem1.nib</key>
@@ -409,22 +443,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eeePTWplygJdYVi2SyshWTAgTE8=
+			fvK+q/dRFjoX3AtdmqLGDT6E/Zo=
 			</data>
 			<key>hash2</key>
 			<data>
-			LwoZ8kOYgJ66vzmzQUVdRKvmtxgzHxvCIh965miUwUI=
+			J55A0H/Ac8a3K7k0M7bF92jcf6nh/vLnrEHzbZ8vDBo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/covisdk.framework/covisdk</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pgEIdIym3TCZpUahm/bIQ7cmH3E=
+			PSlRfLGMuH3N5vEhx/c4lM/KxJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			+4tJL4Q85WJldVHeEiN7qOXvetgUXFJQMPer7MxbsH0=
+			bbdawUXzUZ0ipfg5TlBN4q6CSbCyRAr24PAfKSB17T0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/covisdk.framework/covisdk.podspec</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			frM0WmCmEI401TlDagXjvc/dqaA=
+			</data>
+			<key>hash2</key>
+			<data>
+			MUngHfHN52HBlovCumRG9hO7lu1H0f/MdmoaGOeBUdM=
 			</data>
 		</dict>
 	</dict>

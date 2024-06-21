@@ -16,8 +16,6 @@
 		FD0149792C240DA0001A8737 /* covisdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0149772C240D9A001A8737 /* covisdk.xcframework */; };
 		FD01497A2C240DA0001A8737 /* covisdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FD0149772C240D9A001A8737 /* covisdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FDDA45302C1C009000D12B0B /* testAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA452F2C1C009000D12B0B /* testAlert.swift */; };
-		FDE4FE2C2C2118F7006C83F0 /* AnimalFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */; };
-		FDE4FE2D2C2118F7006C83F0 /* AnimalFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +35,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FDE4FE2D2C2118F7006C83F0 /* AnimalFramework.xcframework in Embed Frameworks */,
 				FD01497A2C240DA0001A8737 /* covisdk.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -79,7 +76,6 @@
 		FBAF197431194E051998A85C9E65204F /* Pods-covi-pod-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covi-pod-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FD0149772C240D9A001A8737 /* covisdk.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:53J7F3TX7Z:JUNGYOON LEE"; lastKnownFileType = wrapper.xcframework; name = covisdk.xcframework; path = "../../covi-pod-test/Classes/covisdk.xcframework"; sourceTree = "<group>"; };
 		FDDA452F2C1C009000D12B0B /* testAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testAlert.swift; path = "covi-pod-test/Classes/testAlert.swift"; sourceTree = "<group>"; };
-		FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:53J7F3TX7Z:JUNGYOON LEE"; lastKnownFileType = wrapper.xcframework; name = AnimalFramework.xcframework; path = "../../covi-pod-test/Classes/AnimalFramework.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE4FE2C2C2118F7006C83F0 /* AnimalFramework.xcframework in Frameworks */,
 				FD0149792C240DA0001A8737 /* covisdk.xcframework in Frameworks */,
 				EA4A8DF344231486977E4CA6F13C9E88 /* Foundation.framework in Frameworks */,
 			);
@@ -203,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				FD0149772C240D9A001A8737 /* covisdk.xcframework */,
-				FDE4FE2B2C2118F7006C83F0 /* AnimalFramework.xcframework */,
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;

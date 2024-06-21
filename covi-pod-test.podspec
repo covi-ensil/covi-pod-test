@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.readme = "README.md"
   s.author           = { 'covi-ensil' => 'ensil@covi.co.kr' }
   s.source           = { :git => 'https://github.com/covi-ensil/covi-pod-test.git', :tag => s.version.to_s }
-  s.vendored_frameworks = 'AnimalFramework.xcframework', 'covisdk.xcframework'
+  s.vendored_frameworks = 'covisdk.xcframework'
   s.ios.deployment_target = '12.0'
   s.source_files = 'covi-pod-test/Classes/**/*.{swift}'
   s.dependency 'SwiftyXMLParser', '~> 5.3.0'

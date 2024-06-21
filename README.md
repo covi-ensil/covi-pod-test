@@ -11,7 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 [![Swift Version](https://img.shields.io/badge/Swift-5.0-magenta.svg)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-12-blue.svg)](https://developer.apple.com/ios/)
-[![xcode](https://img.shields.io/badge/xcode-12-skyblue.svg)](https://developer.apple.com/ios/)
+[![Xcode](https://img.shields.io/badge/Xcode-12-skyblue.svg)](https://developer.apple.com/ios/)
 
 ## Installation
 

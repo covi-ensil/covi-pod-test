@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'AnimalFramework.xcframework', 'covisdk.xcframework'
   s.ios.deployment_target = '12.0'
   s.source_files = 'covi-pod-test/Classes/**/*.{swift}'
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  s.pod_target_xcconfig = {
+#    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+#  }
+#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.dependency 'SwiftyXMLParser', '~> 5.3.0'
   s.dependency 'Alamofire', '5.4.0'
   s.dependency 'SDWebImage', '~> 5.0'

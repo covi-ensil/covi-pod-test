@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'covi-pod-test'
   s.version          = '0.2.4'
   s.swift_versions = '5.0'
-  s.summary          = 'pod test for covi-ios-sdk.'
+  s.summary          = 'pod test for covisdk.'
   s.description      = <<-DESC
   SDK for inserting CoviPlayer with VAST specifications and Viewability into your project
                        DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }  
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.dependency 'SwiftyXMLParser', '~> 5.3.0'
   s.dependency 'Alamofire', '5.4.0'
   s.dependency 'SDWebImage', '~> 5.0'

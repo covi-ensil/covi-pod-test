@@ -12,7 +12,7 @@ end
 target 'covi-pod-test_Example' do
   pod 'covi-pod-test', :path => '../'
   pod 'SwiftyXMLParser', '~> 5.3.0'
-  pod 'Alamofire', '5.4.0'
+  pod 'Alamofire', '~> 5.4.0'
   pod 'SDWebImage', '~> 5.0'
   pod 'Player', '~> 0.13.2'
 end

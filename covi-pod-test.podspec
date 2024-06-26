@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'covi-pod-test'
-  s.version          = '0.2.11'
+  s.version          = '0.2.12'
   s.swift_versions = '5.0'
   s.summary          = 'pod test for covisdk.'
   s.description      = <<-DESC

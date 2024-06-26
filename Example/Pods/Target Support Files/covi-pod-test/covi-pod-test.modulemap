@@ -1,6 +1,0 @@
-framework module covi_pod_test {
-  umbrella header "covi-pod-test-umbrella.h"
-
-  export *
-  module * { export * }
-}

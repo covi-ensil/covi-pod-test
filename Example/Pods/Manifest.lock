@@ -1,16 +1,37 @@
 PODS:
-  - covi-pod-test (0.1.0)
+  - Alamofire (5.4.4)
+  - covi-pod-test (0.2.9):
+    - Alamofire (~> 5.4.0)
+    - Player (~> 0.13.2)
+    - SDWebImage (~> 5.0)
+    - SwiftyXMLParser (~> 5.3.0)
+  - Player (0.13.3)
+  - SDWebImage (5.19.2):
+    - SDWebImage/Core (= 5.19.2)
+  - SDWebImage/Core (5.19.2)
+  - SwiftyXMLParser (5.3.0)
 
 DEPENDENCIES:
   - covi-pod-test (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Player
+    - SDWebImage
+    - SwiftyXMLParser
 
 EXTERNAL SOURCES:
   covi-pod-test:
     :path: "../"
 
 SPEC CHECKSUMS:
-  covi-pod-test: d43ad67f108bef6996be1e915770e446f7551d60
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  covi-pod-test: 5486c282d9f249e495163c0420b4d0423808f824
+  Player: e1889a481f14b3bc4065b62bed304c3de3b47dfe
+  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
+  SwiftyXMLParser: 0985085180f1ee01916cd9b5c1a4f0a8f493c084
 
-PODFILE CHECKSUM: ea879dff77dfafd3a8b10417644c386f65e9925d
+PODFILE CHECKSUM: 74bd5c1ae6a974d794c581a72bf87f5ca89d53df
 
 COCOAPODS: 1.15.2

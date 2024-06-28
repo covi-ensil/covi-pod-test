@@ -19,6 +19,10 @@ DerivedData
 *.ipa
 Pods
 
+# SPM
+Package.resolved
+.swiftpm
+
 # Bundler
 .bundle
 

@@ -1,8 +1,8 @@
 PODS:
   - Alamofire (5.4.4)
-  - covi-pod-test (0.2.9):
+  - covi-pod-test (0.2.12):
     - Alamofire (~> 5.4.0)
-    - Player (~> 0.13.2)
+    - Player (~> 0.13.0)
     - SDWebImage (~> 5.0)
     - SwiftyXMLParser (~> 5.3.0)
   - Player (0.13.3)
@@ -27,7 +27,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
-  covi-pod-test: 5486c282d9f249e495163c0420b4d0423808f824
+  covi-pod-test: fbfb3c62cd6fe39c944493e49c554ea1c485ff96
   Player: e1889a481f14b3bc4065b62bed304c3de3b47dfe
   SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
   SwiftyXMLParser: 0985085180f1ee01916cd9b5c1a4f0a8f493c084

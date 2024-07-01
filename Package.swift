@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "covi-pod-test",
-            targets: ["covi-pod-test"]
+            targets: ["covisdkWrapper"]
         )
     ],
     dependencies: [
@@ -20,7 +20,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "covi-pod-test",
+            name: "covisdkWrapper",
             dependencies: [
                 .target(name: "covisdk"),
                 .product(name: "Alamofire", package: "Alamofire"),

@@ -1,5 +1,4 @@
 // swift-tools-version:5.3
-
 import PackageDescription
 
 let package = Package(
@@ -10,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "covi-pod-test",
-            targets: ["covisdk"]
+            targets: ["covisdkWrapper"]
         )
     ],
     dependencies: [
@@ -27,11 +26,11 @@ let package = Package(
         .target(
             name: "covisdkWrapper",
             dependencies: [
-                .target(name: "covisdk"),
-                .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "SDWebImage", package: "SDWebImage"),
-                .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),
-                .product(name: "Player", package: "Player")
+                "covisdk",
+                "Alamofire",
+                "SDWebImage",
+                "SwiftyXMLParser",
+                "Player"
             ],
             path: "./Sources"
         )

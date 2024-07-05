@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "covi-pod-test",
-            targets: ["covi-pod-test"]
+            targets: ["covisdk"]
         )
     ],
     dependencies: [
@@ -24,16 +24,16 @@ let package = Package(
             path: "./covisdk.xcframework"
         ),
         .target(
-            name: "covi-pod-test",
+            name: "covisdkUsage",
             dependencies: [
-                .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "SDWebImage", package: "SDWebImage"),
-                .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),
-                .product(name: "Player", package: "Player"),
-                "covisdk"
+                "covisdk",
+                "Alamofire",
+                "SDWebImage",
+                "SwiftyXMLParser",
+                "Player"
             ],
             path: "./"
-        ),
+        )
     ],
     swiftLanguageVersions: [.v5]
 )

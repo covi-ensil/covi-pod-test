@@ -19,6 +19,10 @@ let package = Package(
         .package(name: "Player", url: "https://github.com/piemonte/Player.git", .upToNextMinor(from: "0.13.0"))
     ],
     targets: [
+        .binaryTarget(
+            name: "covisdk",
+            path: "./covisdk.xcframework"
+        ),
         .target(
             name: "covi-pod-test",
             dependencies: [

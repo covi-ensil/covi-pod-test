@@ -26,12 +26,12 @@ let package = Package(
         .target(
             name: "covisdkUsage",
             dependencies: [
-                "covisdk",
-                "Alamofire",
-                "SDWebImage",
-                "SwiftyXMLParser",
-                "Player"
-            ],
+                .product(name: "Alamofire", package: "Alamofire"),
+                .product(name: "SDWebImage", package: "SDWebImage"),
+                .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),
+                .product(name: "Player", package: "Player"),
+                "covisdk"
+                ],
             path: "./"
         )
     ],

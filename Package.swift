@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "covi-pod-test",
-            targets: ["covisdk"]
+            targets: ["covi-pod-test"]
         )
     ],
     dependencies: [
@@ -37,4 +37,3 @@ let package = Package(
     ],
     swiftLanguageVersions: [.v5]
 )
-

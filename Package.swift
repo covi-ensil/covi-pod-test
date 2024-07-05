@@ -30,6 +30,7 @@ let package = Package(
                 .product(name: "SDWebImage", package: "SDWebImage"),
                 .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),
                 .product(name: "Player", package: "Player"),
+                "covisdk"
             ],
             path: "./"
         ),

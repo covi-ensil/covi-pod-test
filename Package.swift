@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "covi-pod-test",
-            targets: ["covisdkWrapper"]
+            targets: ["covi-pod-test"]
         )
     ],
     dependencies: [
@@ -20,15 +20,15 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "covisdkWrapper",
+            name: "covi-pod-test",
             dependencies: [
-                .target(name: "covisdk"),
+//                .target(name: "covisdk"),
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "SDWebImage", package: "SDWebImage"),
                 .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),
                 .product(name: "Player", package: "Player")
-            ],
-            path: "./Sources"
+            ]
+//            path: "./Sources"
         ),
         .binaryTarget(
             name: "covisdk",

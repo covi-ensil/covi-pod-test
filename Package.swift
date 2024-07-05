@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "covi-pod-test",
-            targets: ["covisdkWrapper"]
+            targets: ["covi-pod-test"]
         )
     ],
     dependencies: [
@@ -19,22 +19,16 @@ let package = Package(
         .package(name: "Player", url: "https://github.com/piemonte/Player.git", .upToNextMinor(from: "0.13.0"))
     ],
     targets: [
-        .binaryTarget(
-            name: "covisdk",
-            path: "./covisdk.xcframework"
-        ),
-        
         .target(
-            name: "covisdkWrapper",
+            name: "covi-pod-test",
             dependencies: [
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "SDWebImage", package: "SDWebImage"),
                 .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),
                 .product(name: "Player", package: "Player"),
-                "covisdk"
             ],
-            path: "./Sources"
-        )
+            path: "./"
+        ),
     ],
     swiftLanguageVersions: [.v5]
 )

@@ -22,13 +22,13 @@ let package = Package(
         .target(
             name: "covi-pod-test",
             dependencies: [
-//                .target(name: "covisdk"),
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "SDWebImage", package: "SDWebImage"),
                 .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),
-                .product(name: "Player", package: "Player")
-            ]
-//            path: "./Sources"
+                .product(name: "Player", package: "Player"),
+                "covisdk"
+            ],
+            path: "./Sources"
         ),
         .binaryTarget(
             name: "covisdk",

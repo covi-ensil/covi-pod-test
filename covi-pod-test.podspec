@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/covi-ensil/covi-pod-test.git', :tag => s.version.to_s }
   s.vendored_frameworks = 'covisdk.xcframework'
   s.ios.deployment_target = '12.0'
-  s.dependency 'Alamofire', '~> 5.7.0'
+  s.dependency 'Alamofire', '~> 5.9.0'
   s.dependency 'SDWebImage', '~> 5.0'
   s.dependency 'SwiftyXMLParser', '~> 5.3.0'
   s.dependency 'Player', '~> 0.13.0'

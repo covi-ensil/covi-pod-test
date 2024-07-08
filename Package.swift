@@ -26,6 +26,7 @@ let package = Package(
         .target(
             name: "dependencyWrapper",
             dependencies: [
+                .target(name: "covisdk", condition: .when(platforms: .some([.iOS]))),
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "SDWebImage", package: "SDWebImage"),
                 .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),

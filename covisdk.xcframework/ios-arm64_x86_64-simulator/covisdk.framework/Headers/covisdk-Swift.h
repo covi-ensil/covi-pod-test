@@ -316,6 +316,8 @@ SWIFT_CLASS("_TtC7covisdk10CoviPlayer")
 
 
 
+
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -636,6 +638,8 @@ SWIFT_CLASS("_TtC7covisdk10CoviPlayer")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 

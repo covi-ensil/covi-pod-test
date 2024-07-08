@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "covi-pod-test",
-            targets: ["covi-pod-test"]
+            targets: ["dependencyWrapper"]
         )
     ],
     dependencies: [
@@ -24,8 +24,9 @@ let package = Package(
             path: "./covisdk.xcframework"
         ),
         .target(
-            name: "covi-pod-test",
+            name: "dependencyWrapper",
             dependencies: [
+                .target(name: "covisdk", condition: .when(platforms: .some([.iOS]))),
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "SDWebImage", package: "SDWebImage"),
                 .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),

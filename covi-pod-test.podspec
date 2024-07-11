@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'covi-pod-test'
-  s.version          = '0.3.2'
+  s.version          = '0.3.3'
   s.swift_versions = '5.0'
   s.summary          = 'pod test for covisdk.'
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                        DESC
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage         = 'https://www.covi.co.kr/'
-  s.readme = "README.md"
+  s.readme = 'https://cnp-file.dev.covi.co.kr/docs/covi-ad-sdk/iOS/test/README.md'
   s.author           = { 'COVI' => 'ensil@covi.co.kr' }
   s.source           = { :git => 'https://github.com/covi-ensil/covi-pod-test.git', :tag => s.version.to_s }
   s.vendored_frameworks = 'covisdk.xcframework'

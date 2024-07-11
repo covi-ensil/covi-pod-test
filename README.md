@@ -4,24 +4,17 @@
 [![Platform](https://img.shields.io/cocoapods/p/covi-pod-test.svg?style=flat)](https://cocoapods.org/pods/covi-pod-test)
 [![License](https://img.shields.io/cocoapods/l/covi-pod-test.svg?style=flat)](https://cocoapods.org/pods/covi-pod-test)
 
-## Example
+## SDK 적용 가이드
+[링크](https://github.com/covigroup/covi-ios-sdk-guide/wiki)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-[![Swift Version](https://img.shields.io/badge/Swift-5.0-magenta.svg)](https://swift.org)
-[![iOS](https://img.shields.io/badge/iOS-12-blue.svg)](https://developer.apple.com/ios/)
-[![Xcode](https://img.shields.io/badge/Xcode-12-skyblue.svg)](https://developer.apple.com/ios/)
-
-## Installation
-
-covi-pod-test is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 에러 핸들링
+- `dlyd missing symbol called`에러가 발생한다면, Podfile에서 covi-pod-test 관련 타겟들의 config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION']을 'YES'로 설정해주세요.
 
 ```ruby
-pod 'covi-pod-test'
-```
-
-## License
-
-covi-pod-test is available under the MIT license. See the LICENSE file for more info.
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+    end
+  end
+end

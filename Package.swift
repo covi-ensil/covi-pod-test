@@ -1,24 +1,23 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
+
 import PackageDescription
 
 let package = Package(
     name: "covi-pod-test",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v12),
+        .macOS(.v10_15)
     ],
     products: [
         .library(
             name: "covi-pod-test",
             targets: ["covi-pod-test"]
-        )
-    ],
-    dependencies: [
+        ),
     ],
     targets: [
         .binaryTarget(
-            name: "covisdk",
+            name: "covi-pod-test",
             path: "./covisdk.xcframework"
-        )
-    ],
-    swiftLanguageVersions: [.v5]
+        ),
+    ]
 )

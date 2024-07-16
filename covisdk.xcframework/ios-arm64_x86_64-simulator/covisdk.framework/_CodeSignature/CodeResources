@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/covisdk.h</key>
 		<data>
-		tqKYXa1H3BW8nKxdvJQAyUlnOLY=
+		+c0FArBDCxBkerqLM5/IZHHAc8E=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0pAVe2rIhSyW6mMtWKmvQDxjUfhTNq0n+iCcnr2UE4w=
+			TDROgO8FytCj4dIbGqZwzvn93W92bG+nzui1vTFHm48=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>

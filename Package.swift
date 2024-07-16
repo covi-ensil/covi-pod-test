@@ -6,7 +6,6 @@ let package = Package(
     name: "covi-pod-test",
     platforms: [
         .iOS(.v12),
-        .macOS(.v10_15)
     ],
     products: [
         .library(

@@ -16,135 +16,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import covisdk
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CoviPlayer : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var type: Swift.String
-  @_Concurrency.MainActor(unsafe) public var pcode: Swift.String
-  @_Concurrency.MainActor(unsafe) public var category: Swift.String
-  @_Concurrency.MainActor(unsafe) public var age: Swift.Int?
-  @_Concurrency.MainActor(unsafe) public var gender: Swift.String?
-  @_Concurrency.MainActor(unsafe) public var idfa: Swift.String?
-  @_Concurrency.MainActor(unsafe) public var media: Swift.String?
-  @_Concurrency.MainActor(unsafe) public var playType: covisdk.PlayType
-  @_Concurrency.MainActor(unsafe) public var autoPlay: Swift.Bool
-  @_Concurrency.MainActor(unsafe) public var isLoad: Swift.Bool
-  @_Concurrency.MainActor(unsafe) public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-public enum PlayType {
-  case auto_play
-  case click_to_play
-  public static func == (a: covisdk.PlayType, b: covisdk.PlayType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension covisdk.XML {
-  @dynamicMemberLookup public enum Accessor : Swift.CustomStringConvertible, Swift.Sequence {
-    case singleElement(covisdk.XML.Element)
-    case sequence([covisdk.XML.Element])
-    case failure(any Swift.Error)
-    public init(_ element: covisdk.XML.Element)
-    public init(_ sequence: [covisdk.XML.Element])
-    public init(_ error: any Swift.Error)
-    public subscript(dynamicMember member: Swift.String) -> covisdk.XML.Accessor {
-      get
-    }
-    public subscript(path: Swift.Array<any covisdk.XMLSubscriptType>) -> covisdk.XML.Accessor {
-      get
-    }
-    public subscript(path: any covisdk.XMLSubscriptType...) -> covisdk.XML.Accessor {
-      get
-    }
-    public var name: Swift.String? {
-      get
-    }
-    public var text: Swift.String? {
-      get
-    }
-    public var bool: Swift.Bool? {
-      get
-    }
-    public var url: Foundation.URL? {
-      get
-    }
-    public var int: Swift.Int? {
-      get
-    }
-    public var double: Swift.Double? {
-      get
-    }
-    public var attributes: [Swift.String : Swift.String] {
-      get
-    }
-    public var all: [covisdk.XML.Element]? {
-      get
-    }
-    public var names: [Swift.String]? {
-      get
-    }
-    public var error: (any Swift.Error)? {
-      get
-    }
-    public var element: covisdk.XML.Element? {
-      get
-    }
-    public var last: covisdk.XML.Accessor {
-      get
-    }
-    public var first: covisdk.XML.Accessor {
-      get
-    }
-    public func map<T>(_ transform: (covisdk.XML.Accessor) -> T) -> [T]
-    @available(*, renamed: "flatMap")
-    public func mapWithSqueezeNil<T>(_ transform: (covisdk.XML.Accessor) -> T?) -> [T]
-    public func makeIterator() -> Swift.AnyIterator<covisdk.XML.Accessor>
-    public var description: Swift.String {
-      get
-    }
-    public typealias Element = covisdk.XML.Accessor
-    public typealias Iterator = Swift.AnyIterator<covisdk.XML.Accessor>
-  }
-}
-extension covisdk.XML {
-  public class Converter {
-    public init(_ accessor: covisdk.XML.Accessor)
-    public func makeDocument() throws -> Swift.String
-    @objc deinit
-  }
-}
-extension covisdk.XML {
-  open class Element {
-    open var name: Swift.String
-    open var text: Swift.String?
-    open var attributes: [Swift.String : Swift.String]
-    open var childElements: [covisdk.XML.Element]
-    weak open var parentElement: covisdk.XML.Element?
-    public init(name: Swift.String)
-    @objc deinit
-  }
-}
-public protocol XMLSubscriptType {
-}
-extension Swift.Int : covisdk.XMLSubscriptType {
-}
-extension Swift.String : covisdk.XMLSubscriptType {
-}
-infix operator ?= : DefaultPrecedence
-public func ?= <T>(lhs: inout T, rhs: T?)
-infix operator ?<< : DefaultPrecedence
-public func ?<< <T>(lhs: inout [T], rhs: T?)
-@_hasMissingDesignatedInitializers open class XML {
-  open class func parse(_ data: Foundation.Data) -> covisdk.XML.Accessor
-  open class func parse(_ str: Swift.String) throws -> covisdk.XML.Accessor
-  open class func parse(_ data: Foundation.Data, trimming manner: Foundation.CharacterSet) -> covisdk.XML.Accessor
-  open class func parse(_ str: Swift.String, trimming manner: Foundation.CharacterSet) throws -> covisdk.XML.Accessor
-  open class func document(_ accessor: covisdk.XML.Accessor) throws -> Swift.String
-  @objc deinit
-}
 public let PlayerErrorDomain: Swift.String
 public enum PlayerError : Swift.Error, Swift.CustomStringConvertible {
   case failed
@@ -311,17 +182,144 @@ extension covisdk.Player {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CoviPlayer : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var type: Swift.String
+  @_Concurrency.MainActor(unsafe) public var pcode: Swift.String
+  @_Concurrency.MainActor(unsafe) public var category: Swift.String
+  @_Concurrency.MainActor(unsafe) public var age: Swift.Int?
+  @_Concurrency.MainActor(unsafe) public var gender: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var idfa: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var media: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var playType: covisdk.PlayType
+  @_Concurrency.MainActor(unsafe) public var autoPlay: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var isLoad: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum PlayType {
+  case auto_play
+  case click_to_play
+  public static func == (a: covisdk.PlayType, b: covisdk.PlayType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension covisdk.XML {
+  @dynamicMemberLookup public enum Accessor : Swift.CustomStringConvertible, Swift.Sequence {
+    case singleElement(covisdk.XML.Element)
+    case sequence([covisdk.XML.Element])
+    case failure(any Swift.Error)
+    public init(_ element: covisdk.XML.Element)
+    public init(_ sequence: [covisdk.XML.Element])
+    public init(_ error: any Swift.Error)
+    public subscript(dynamicMember member: Swift.String) -> covisdk.XML.Accessor {
+      get
+    }
+    public subscript(path: Swift.Array<any covisdk.XMLSubscriptType>) -> covisdk.XML.Accessor {
+      get
+    }
+    public subscript(path: any covisdk.XMLSubscriptType...) -> covisdk.XML.Accessor {
+      get
+    }
+    public var name: Swift.String? {
+      get
+    }
+    public var text: Swift.String? {
+      get
+    }
+    public var bool: Swift.Bool? {
+      get
+    }
+    public var url: Foundation.URL? {
+      get
+    }
+    public var int: Swift.Int? {
+      get
+    }
+    public var double: Swift.Double? {
+      get
+    }
+    public var attributes: [Swift.String : Swift.String] {
+      get
+    }
+    public var all: [covisdk.XML.Element]? {
+      get
+    }
+    public var names: [Swift.String]? {
+      get
+    }
+    public var error: (any Swift.Error)? {
+      get
+    }
+    public var element: covisdk.XML.Element? {
+      get
+    }
+    public var last: covisdk.XML.Accessor {
+      get
+    }
+    public var first: covisdk.XML.Accessor {
+      get
+    }
+    public func map<T>(_ transform: (covisdk.XML.Accessor) -> T) -> [T]
+    @available(*, renamed: "flatMap")
+    public func mapWithSqueezeNil<T>(_ transform: (covisdk.XML.Accessor) -> T?) -> [T]
+    public func makeIterator() -> Swift.AnyIterator<covisdk.XML.Accessor>
+    public var description: Swift.String {
+      get
+    }
+    public typealias Element = covisdk.XML.Accessor
+    public typealias Iterator = Swift.AnyIterator<covisdk.XML.Accessor>
+  }
+}
+extension covisdk.XML {
+  public class Converter {
+    public init(_ accessor: covisdk.XML.Accessor)
+    public func makeDocument() throws -> Swift.String
+    @objc deinit
+  }
+}
 public enum XMLError : Swift.Error {
   case failToEncodeString
   case interruptedParseError(rawError: any Swift.Error)
   case accessError(description: Swift.String)
 }
+public protocol XMLSubscriptType {
+}
+extension Swift.Int : covisdk.XMLSubscriptType {
+}
+extension Swift.String : covisdk.XMLSubscriptType {
+}
+infix operator ?= : DefaultPrecedence
+public func ?= <T>(lhs: inout T, rhs: T?)
+infix operator ?<< : DefaultPrecedence
+public func ?<< <T>(lhs: inout [T], rhs: T?)
+@_hasMissingDesignatedInitializers open class XML {
+  open class func parse(_ data: Foundation.Data) -> covisdk.XML.Accessor
+  open class func parse(_ str: Swift.String) throws -> covisdk.XML.Accessor
+  open class func parse(_ data: Foundation.Data, trimming manner: Foundation.CharacterSet) -> covisdk.XML.Accessor
+  open class func parse(_ str: Swift.String, trimming manner: Foundation.CharacterSet) throws -> covisdk.XML.Accessor
+  open class func document(_ accessor: covisdk.XML.Accessor) throws -> Swift.String
+  @objc deinit
+}
 public func openBrowser(url: Swift.String?)
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func openBrowserWithSafari(url: Swift.String?)
 }
-extension covisdk.PlayType : Swift.Equatable {}
-extension covisdk.PlayType : Swift.Hashable {}
+extension covisdk.XML {
+  open class Element {
+    open var name: Swift.String
+    open var text: Swift.String?
+    open var attributes: [Swift.String : Swift.String]
+    open var childElements: [covisdk.XML.Element]
+    weak open var parentElement: covisdk.XML.Element?
+    public init(name: Swift.String)
+    @objc deinit
+  }
+}
 extension covisdk.PlayerError : Swift.Equatable {}
 extension covisdk.PlayerError : Swift.Hashable {}
 extension covisdk.Player.PlaybackState : Swift.Equatable {}
@@ -330,3 +328,5 @@ extension covisdk.Player.PlaybackState : Swift.RawRepresentable {}
 extension covisdk.Player.BufferingState : Swift.Equatable {}
 extension covisdk.Player.BufferingState : Swift.Hashable {}
 extension covisdk.Player.BufferingState : Swift.RawRepresentable {}
+extension covisdk.PlayType : Swift.Equatable {}
+extension covisdk.PlayType : Swift.Hashable {}
